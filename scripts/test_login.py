@@ -33,3 +33,8 @@ def test_management_of_bidding_and_tendering():
 @allure.title("合同管理")
 def test_contract_management():
     assert True
+
+
+@allure.title("客户管理")
+def test_customer_management():
+    assert True
