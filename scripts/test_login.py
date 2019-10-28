@@ -35,6 +35,11 @@ def test_contract_management():
     assert True
 
 
-@allure.title("客户管理5")
+@allure.title("客户管理")
 def test_customer_management():
+    assert True
+
+
+@allure.title("人员需求")
+def personnel_requirement():
     assert True
