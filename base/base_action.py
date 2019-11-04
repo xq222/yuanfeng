@@ -73,6 +73,19 @@ class BaseAction:
         except Exception:
             return False
 
+    """
+           frame切换
+    """
+
+    # 切换至name或id为text的frame模块
+    def base_switch_frame(self, text):
+        self.driver.switch_to.frame(text)
+
+    # 切换至原页面
+    def base_switch_to_default_content(self):
+        self.driver.switch_to.default_content()
+
+
 # --------------------------------- mobile only ---------------------------------
 
     def press_back(self):

@@ -1,3 +1,4 @@
+from appium.webdriver.webdriver import WebDriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.select import Select
