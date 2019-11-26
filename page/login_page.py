@@ -379,9 +379,63 @@ class LoginPage(BaseAction):
 
     @allure.step(title="物资管理-物资台账")
     def material_parameter(self):
-        self.click(page.materials_management)
+        # self.click(page.materials_management)
         self.click(page.material_parameters)
 
+    @allure.step(title="车辆管理-车辆信息管理")
+    def information_management(self):
+        self.click(page.vehicle_management)
+        self.click(page.information_managements)
+
+    @allure.step(title="车辆信息-车辆年审")
+    def annual_verification(self):
+        # self.click(page.vehicle_management)
+        self.click(page.annual_verifications)
+
+    @allure.step(title="车辆信息-车辆保险")
+    def automobile_insurance(self):
+        # self.click(page.vehicle_management)
+        self.click(page.automobile_insurances)
+
+    @allure.step(title="统计管理-建设工程监理项目产值报表")
+    def report_forms(self):
+        self.click(page.statistical_management)
+        self.click(page.report_formss)
+
+    @allure.step(title="统计管理-建设工程监理项目每月项目情况汇总统计")
+    def tabulate_statistics(self):
+        self.click(page.statistical_management)
+        self.click(page.tabulate_statisticss)
+
+    @allure.step(title="统计管理-技术部报表")
+    def technical_department_report(self):
+        self.click(page.statistical_management)
+        self.click(page.technical_department_reports)
+
+    @allure.step(title="数据字典管理-数据字典管理")
+    def the_dictionary_management(self):
+        self.click(page.The_dictionary_management)
+        self.click(page.the_dictionary_managements)
+
+    @allure.step(title="系统管理-角色管理")
+    def role_management(self):
+        self.click(page.system_management)
+        self.click(page.role_managements)
+
+    @allure.step(title="系统管理-部门管理")
+    def division_management(self):
+        self.click(page.system_management)
+        self.click(page.division_managements)
+
+    @allure.step(title="系统管理-岗位管理")
+    def post_management(self):
+        self.click(page.system_management)
+        self.click(page.post_managements)
+
+    @allure.step(title="系统管理-用户管理")
+    def user_management(self):
+        self.click(page.system_management)
+        self.click(page.user_managements)
 
 
 
@@ -395,11 +449,15 @@ class LoginPage(BaseAction):
 
 
 
+# 1、打开京东
+# 2、输入 呵呵
+# 3、点击搜索
+# 4、截屏
 
 
-
-
-
+# 方法：
+#     get_screenshot_as_file(imgpath)
+#     --> 截取当前窗口(imgpath：图片保存路径)
 
 
 
