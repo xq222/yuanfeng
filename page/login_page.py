@@ -432,7 +432,7 @@ class LoginPage(BaseAction):
         self.click(page.system_management)
         self.click(page.post_managements)
 
-    @allure.step(title="系统管理-用户管理111")
+    @allure.step(title="系统管理-用户管理")
     def user_management(self):
         self.click(page.system_management)
         self.click(page.user_managements)
