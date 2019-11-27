@@ -449,15 +449,6 @@ class LoginPage(BaseAction):
 
 
 
-# 1、打开京东
-# 2、输入 呵呵
-# 3、点击搜索
-# 4、截屏
-
-
-# 方法：
-#     get_screenshot_as_file(imgpath)
-#     --> 截取当前窗口(imgpath：图片保存路径)
 
 
 
