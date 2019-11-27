@@ -62,10 +62,10 @@ class LoginPage(BaseAction):
     def examine(self):
         self.click(page.personnel_requirement)
         self.click(page.personnel_requirement1)
-        time.sleep(2)
-        self.base_switch_frame(self.find_element(page.switch_frame_operation))
-        self.click(page.check_the_operation)
-        self.base_switch_to_default_content()
+        # time.sleep(2)
+        # self.base_switch_frame(self.find_element(page.switch_frame_operation))
+        # self.click(page.check_the_operation)
+        # self.base_switch_to_default_content()
 
     @allure.step(title="合同管理-项目合同-根据合同名称点击查询")
     def click_on_the_query(self, text):
@@ -404,12 +404,12 @@ class LoginPage(BaseAction):
 
     @allure.step(title="统计管理-建设工程监理项目每月项目情况汇总统计")
     def tabulate_statistics(self):
-        self.click(page.statistical_management)
+        # self.click(page.statistical_management)
         self.click(page.tabulate_statisticss)
 
     @allure.step(title="统计管理-技术部报表")
     def technical_department_report(self):
-        self.click(page.statistical_management)
+        # self.click(page.statistical_management)
         self.click(page.technical_department_reports)
 
     @allure.step(title="数据字典管理-数据字典管理")
@@ -424,17 +424,17 @@ class LoginPage(BaseAction):
 
     @allure.step(title="系统管理-部门管理")
     def division_management(self):
-        self.click(page.system_management)
+        # self.click(page.system_management)
         self.click(page.division_managements)
 
     @allure.step(title="系统管理-岗位管理")
     def post_management(self):
-        self.click(page.system_management)
+        # self.click(page.system_management)
         self.click(page.post_managements)
 
     @allure.step(title="系统管理-用户管理")
     def user_management(self):
-        self.click(page.system_management)
+        # self.click(page.system_management)
         self.click(page.user_managements)
 
 

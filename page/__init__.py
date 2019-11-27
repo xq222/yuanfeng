@@ -100,6 +100,7 @@ remove = By.XPATH, "//*[@id='LAY-system-side-menu']/li[12]/dl/dd[3]/a"
 dimission = By.XPATH, "//*[@id='LAY-system-side-menu']/li[12]/dl/dd[4]/a"
 
 
+
 """
 培训管理
 """

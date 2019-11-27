@@ -81,7 +81,7 @@ class TestAdmin():
         self.login_page.statistics()
         self.login_page.monthly_statistics()
 
-    @allure.title("人员管理")
+    @allure.title("人员进出")
     def test_personnel_in_and_out(self):
         self.login_page.apply_for()
         self.login_page.staff_regularization()
@@ -187,6 +187,7 @@ class TestAdmin():
 
     @allure.title("会议管理")
     def test_meeting_management(self):
+        self.login_page.conference_room()
         self.login_page.make_an_appointment_to_statistics()
         self.login_page.meeting_summary()
 
