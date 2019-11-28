@@ -108,7 +108,7 @@ class LoginPage(BaseAction):
         self.click(page.monthly_statistic)
 
     @allure.step(title="人员进出-用人申请")
-    def apply_for(self):
+    def employ_persons_application(self):
         self.click(page.personnel_in_and_out)
         self.click(page.application_of_choose_and_employ_persons)
 
