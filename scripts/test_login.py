@@ -214,7 +214,7 @@ class TestAdmin():
     def test_the_dictionary_management(self):
         self.login_page.the_dictionary_management()
 
-    @allure.title("系统管理1")
+    @allure.title("系统管理")
     def test_system_management(self):
         self.login_page.role_management()
         self.login_page.division_management()
