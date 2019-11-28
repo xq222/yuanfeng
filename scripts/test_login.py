@@ -40,7 +40,6 @@ class TestAdmin():
         self.login_page.inquire("111")
 
 
-
     @allure.title("合同管理")
     def test_contract_management(self):
         print("4")
@@ -83,7 +82,7 @@ class TestAdmin():
 
     @allure.title("人员进出")
     def test_personnel_in_and_out(self):
-        self.login_page.apply_for()
+        self.login_page.employ_persons_application()
         self.login_page.staff_regularization()
         self.login_page.personnel_transfer()
         self.login_page.dimission_management()
