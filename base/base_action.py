@@ -1,3 +1,5 @@
+import os
+
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -52,6 +54,17 @@ class BaseAction:
         :param feature: 特征
         """
         self.find_element(feature).clear()
+
+    # def screen_shot(self, file_name):
+    #     """
+    #     屏幕截图，保存在image文件夹中
+    #     :param file_name: 文件名`
+    #     :return: 是否截图成功
+    #     """
+    #     dir_name = "images"
+    #     if not os.path.exists("./" + dir_name):
+    #         os.mkdir("./" + dir_name)
+    #     return self.driver.get_screenshot_as_file("./" + dir_name + "/" + file_name)
 
     def screen_shot(self, file_name):
         """

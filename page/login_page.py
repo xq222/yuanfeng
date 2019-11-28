@@ -436,6 +436,7 @@ class LoginPage(BaseAction):
     def user_management(self):
         # self.click(page.system_management) 注释
         self.click(page.user_managements)
+        self.screen_shot("fail.png")
 
 
 

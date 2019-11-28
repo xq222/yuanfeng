@@ -220,8 +220,9 @@ class TestAdmin():
         self.login_page.division_management()
         self.login_page.post_management()
         self.login_page.user_management()
-
-
+        self.login_page.screen_shot("fail.png")
+        with open(u"./image/fail.png", "rb")as f:
+            allure.attach(f.read(), "失败原因：", allure.attachment_type.PNG)
 
 
 
